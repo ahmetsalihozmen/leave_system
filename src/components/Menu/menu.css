@@ -1,0 +1,22 @@
+#container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    max-width: 650px;
+    text-align: center;
+    min-width: 300px;
+}
+input[type=submit] {
+    cursor: pointer;
+    background-color: #7695DD;
+    border-color: #7695DD;
+    width: 60%;
+    height: 10%;
+    
+  }
+#StaffMGMT{
+    max-width: 30%;
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,14 @@
+#myoblist{
+    min-width: 1600px;
+    margin: auto;
+    margin-top: 3%;
+}
+#myoblistdiv{
+    height:300px;
+    overflow-y: scroll;
+}
+#myobadd{
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+}

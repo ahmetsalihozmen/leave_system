@@ -1,0 +1,16 @@
+#inputs{
+    text-align: center;
+    margin: auto;
+
+}
+
+#maindiv{
+    margin: auto;
+    margin-top: 3%;
+   
+}
+
+#listdiv{
+    height:300px;
+    overflow-y: scroll;
+}

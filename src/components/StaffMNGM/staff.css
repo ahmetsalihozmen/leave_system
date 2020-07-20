@@ -1,0 +1,37 @@
+
+ul{
+    list-style-type: none;
+     margin: 5;
+    padding: 0;
+    
+}
+
+#staffadd{
+  margin-top: 3%;
+  float: left;
+  margin-left: 2%;
+}
+
+#ele{
+  overflow-x: auto;
+}
+
+#liststaff{
+  float: right;
+  width: 50%;
+  min-width: 800px;
+  margin-top: 3%;
+  overflow-y: scroll;
+  height: 700px;
+  overflow-x: scroll;
+}
+
+th {
+  color: white;
+  background-color: #7695DD;
+  border-color: #7695DD;
+}
+
+table, td {
+  border: 1px solid black;
+}
