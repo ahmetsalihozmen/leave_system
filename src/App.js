@@ -28,29 +28,29 @@ class App extends Component {
   }
 
   listStaff =() =>{
-      fetch('https://rocky-retreat-96881.herokuapp.com/staff',{
-          method:'get',
-          headers:{'Content-Type': 'application/json'}
-      })
-      .then(response => response.json())
-      .then(list =>{
-          this.setState({staff: list})
-      })
-  }
+    fetch('https://rocky-retreat-96881.herokuapp.com/staff',{
+        method:'get',
+        headers:{'Content-Type': 'application/json'}
+    })
+    .then(response => response.json())
+    .then(list =>{
+        this.setState({staff: list})
+    })
+}
 
-  listLeave =() =>{
-      fetch('https://rocky-retreat-96881.herokuapp.com/history',{
-          method:'get',
-          headers:{'Content-Type': 'application/json'}
-      })
-      .then(response => response.json())
-      .then(list =>{
-          this.setState({leaves: list})
-      })
-      .catch(err=>{
-        console.log('Cant fetch');
-      })
-  }
+listLeave =() =>{
+  fetch('https://rocky-retreat-96881.herokuapp.com/history',{
+      method:'get',
+      headers:{'Content-Type': 'application/json'}
+  })
+  .then(response => response.json())
+  .then(list =>{
+      this.setState({leaves: list})
+  })
+  .catch(err=>{
+    console.log('Cant fetch');
+  })
+}
 
   onRouteChange = (route) => {
     this.refresh();

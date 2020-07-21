@@ -11,6 +11,7 @@ const ListStaff = ({list}) =>{
                 </tr>
                 {
                     list.map((staff,i)=>{
+                        if(!staff.valid){
                         return(
                             <tr key={i}>
                                 <td>{staff.name}</td>
@@ -18,6 +19,8 @@ const ListStaff = ({list}) =>{
                                 <td>{staff.type}</td>
                             </tr>
                         )
+                        }
+                        return null;
                     })
                 }
             </tbody>

@@ -7,7 +7,7 @@
 #maindiv{
     margin: auto;
     margin-top: 3%;
-   
+    min-width: 700px;
 }
 
 #listdiv{

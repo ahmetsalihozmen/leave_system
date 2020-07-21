@@ -24,7 +24,6 @@ const Page =({route,onRouteChange,myobleaves,leaves,staff})=> {
         <div id='cont' className='shadow-5'>
             <input type='button' id='back' className='ma3 b ph3 pv2 input-reset ba white' value='Back'onClick={()=> onRouteChange('main')}></input>
             <div className='tc'>
-                <h1 id='leave'>Leave Manager</h1>
                 <div id='nav' className="">
                     <h2>{nav}</h2>
                 </div>

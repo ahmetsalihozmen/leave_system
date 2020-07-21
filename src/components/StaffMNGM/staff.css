@@ -10,6 +10,7 @@ ul{
   margin-top: 3%;
   float: left;
   margin-left: 2%;
+  min-width: 500px;
 }
 
 #ele{
@@ -17,13 +18,11 @@ ul{
 }
 
 #liststaff{
-  float: right;
   width: 50%;
   min-width: 800px;
-  margin-top: 3%;
+  margin: auto;
   overflow-y: scroll;
   height: 700px;
-  overflow-x: scroll;
 }
 
 th {
